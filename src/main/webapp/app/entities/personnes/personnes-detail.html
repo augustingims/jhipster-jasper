@@ -1,0 +1,51 @@
+
+<div>
+    <h2><span>Personnes</span> {{vm.personnes.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span>Noms</span></dt>
+        <dd>
+            <span>{{vm.personnes.noms}}</span>
+        </dd>
+        <dt><span>Prenoms</span></dt>
+        <dd>
+            <span>{{vm.personnes.prenoms}}</span>
+        </dd>
+        <dt><span>Sexe</span></dt>
+        <dd>
+            <span>{{vm.personnes.sexe}}</span>
+        </dd>
+        <dt><span>Telephone</span></dt>
+        <dd>
+            <span>{{vm.personnes.telephone}}</span>
+        </dd>
+        <dt><span>Pays</span></dt>
+        <dd>
+            <span>{{vm.personnes.pays}}</span>
+        </dd>
+        <dt><span>Nationalite</span></dt>
+        <dd>
+            <span>{{vm.personnes.nationalite}}</span>
+        </dd>
+        <dt><span>Date Naissance</span></dt>
+        <dd>
+            <span>{{vm.personnes.dateNaissance}}</span>
+        </dd>
+        <dt><span>Lieu Naissance</span></dt>
+        <dd>
+            <span>{{vm.personnes.lieuNaissance}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span> Back</span>
+    </button>
+
+    <button type="button" ui-sref="personnes-detail.edit({id:vm.personnes.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down"> Edit</span>
+    </button>
+</div>

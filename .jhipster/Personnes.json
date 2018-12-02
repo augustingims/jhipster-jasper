@@ -1,0 +1,44 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "noms",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "prenoms",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sexe",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "telephone",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "pays",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nationalite",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dateNaissance",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lieuNaissance",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20181202025000",
+    "dto": "mapstruct",
+    "service": "serviceImpl",
+    "entityTableName": "personnes",
+    "jpaMetamodelFiltering": true,
+    "pagination": "pagination"
+}
