@@ -25,6 +25,7 @@ npm-debug.log.*
 *.pydevproject
 .project
 .metadata
+yarn.lock
 tmp/
 tmp/**/*
 *.tmp
